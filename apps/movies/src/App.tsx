@@ -11,6 +11,10 @@ function App() {
           path: "/",
           element: () => <div>Home is rendered</div>,
         },
+        {
+          path: "/playlist",
+          element: () => <div>PlayList is rendered</div>,
+        },
       ]}
       navLinks={[
         {
